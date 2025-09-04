@@ -1,0 +1,108 @@
+/* Estilos base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f9f9f9;
+}
+
+header, main, footer {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Perfil */
+header {
+  text-align: center;
+  background: #004aad;
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #fff;
+}
+
+/* Secciones */
+section {
+  margin: 30px 0;
+}
+
+h3 {
+  border-bottom: 2px solid #004aad;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #004aad;
+}
+
+/* Chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chips span {
+  background: #004aad;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Proyectos */
+.proyecto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.proyecto img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.proyecto div {
+  flex: 1;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin: 8px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .proyecto {
+    flex-direction: row;
+    align-items: center;
+  }
+}
